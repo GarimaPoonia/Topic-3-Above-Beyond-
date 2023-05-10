@@ -1,0 +1,23 @@
+body {
+    background-image: url("dodge.jpg");
+    background-color: #2f2d2d;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(247, 238, 238);
+}
+
+button {
+    background-color:black;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    background-color: gray;
+}
